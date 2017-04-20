@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Source Code of the Portuguese Evaluation Tools
+title: Evaluation Tools
 ---
 
-Tools:
+Source code of the Portuguese Web Accessibility Evaluation Tools:
 
 - <a href="https://github.com/unidade-acesso/observatory">Portuguese Observatory of Web Accessibility</a>
 - MyMonitor
