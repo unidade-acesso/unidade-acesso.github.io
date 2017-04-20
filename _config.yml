@@ -5,9 +5,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            CB
+tagline:          'Carlos Benavidez's Repository'
+description:      'Open Source Repository of Web Accessibility Evaluation Tools.'
 url:              http://carlosbenavidez.tk
 baseurl:          /
 
