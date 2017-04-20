@@ -6,7 +6,7 @@ permalink:        pretty
 
 # Setup
 title:            CB
-tagline:          'Carlos Benavidez's Repository'
+tagline:          'Carlos Benavidez Repository'
 description:      'Open Source Repository of Web Accessibility Evaluation Tools.'
 url:              http://carlosbenavidez.tk
 baseurl:          /
