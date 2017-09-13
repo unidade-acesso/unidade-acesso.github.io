@@ -9,7 +9,7 @@ title:            CB
 tagline:          'Carlos Benavidez Repository'
 description:      'Open Source Repository of Web Accessibility Evaluation Tools.'
 url:              http://carlosbenavidez.tk
-baseurl:          /
+baseurl:          http://carlosbenavidez.tk/
 
 author:
   name:           'Mark Otto'
