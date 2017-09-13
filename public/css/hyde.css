@@ -59,6 +59,12 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
+/* added by JF to center the header in sidebar */
+.sidebar-header {
+  text-align: center;
+  margin: auto auto;
+}
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
