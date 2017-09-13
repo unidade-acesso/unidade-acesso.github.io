@@ -65,11 +65,8 @@ html {
   text-align: center;
 }
 .sidebar-header img {
-  display: block;
-  width:18rem;
-  margin: 0 auto;
-}
-
+    display: block;
+    margin: 0 auto;
 }
 @media (min-width: 48em) {
   .sidebar {
