@@ -8,12 +8,12 @@ permalink:        pretty
 title:            CB
 tagline:          'Carlos Benavidez Repository'
 description:      'Open Source Repository of Web Accessibility Evaluation Tools.'
-url:              http://carlosbenavidez.tk
-baseurl:          http://carlosbenavidez.tk/
+url:              http://www.carlosbenavidez.tk
+baseurl:          http://www.carlosbenavidez.tk/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Jorge Fernandes'
+  url:            https://twitter.com/91408
 
 paginate:         5
 
@@ -21,4 +21,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://carlosbenavidez.tk
+  repo:           https://unidade-acesso/unidade-acesso.github.io
