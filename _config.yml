@@ -8,8 +8,8 @@ permalink:        pretty
 title:            CB
 tagline:          'Carlos Benavidez Repository'
 description:      'Open Source Repository of Web Accessibility Evaluation Tools.'
-url:              http://www.carlosbenavidez.tk
-baseurl:          http://www.carlosbenavidez.tk/
+url:              https://www.carlosbenavidez.tk
+baseurl:          https://www.carlosbenavidez.tk/
 
 author:
   name:           'Jorge Fernandes'
