@@ -6,7 +6,9 @@ title: The background of the AccessMonitor' Score
 
 Everything that is said below about the eXaminator's index applies to AccessMonitor.
 
-# Fórmulas de cálculo
+(...)
+
+## Fórmulas de cálculo
 
 Un inconveniente de las métricas que miden la tasa de fallo es que nos ponen en aprietos al tratar de resolver las pruebas cuando es difícil o imposible definir el número total de pruebas realizadas. En el test sobre las alternativas textuales no hay problemas porque el total de pruebas es el número de imágenes que hay en una página y el número de errores son las imágenes sin el atributo alt.
 Los problemas aparecen, por ejemplo, al intentar calificar los errores de validación porque disponemos del número de errores pero no existe un total de pruebas que nos permita calcular el porcentaje de errores. También tenemos una situación indefinida cuando encontramos atributos HTML obsoletos porque podríamos considerar como total de casos el número de elementos de la página o solamente el número de elementos que tienen asignado atributos mediante HTML.
