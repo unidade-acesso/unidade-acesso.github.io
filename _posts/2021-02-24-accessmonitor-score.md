@@ -1,3 +1,7 @@
+---
+title: The background of the AccessMonitor' Score
+---
+
 <span lang="en">Note: this article was taken from <em lang="es">Libro Blanco de eXaminator</em>, written by Carlos Benavidez, author of Web validators such as Hera, eXaminator and AccessMonitor. The book was published on June 1, 2012.</span>
 
 Everything that is said below about the eXaminator's index applies to AccessMonitor.
