@@ -6,8 +6,6 @@ title: The background of the AccessMonitor' Score
 
 <p>Everything that is said below about the eXaminator's score applies to AccessMonitor.</p>
 
-<div lang="es">
-
 (...)
 
 ## Fórmulas de cálculo
@@ -88,5 +86,3 @@ Con este ejemplo muy sencillo se puede apreciar la importancia de la ponderació
 En términos prácticos, las ponderaciones permiten establecer un necesario balance entre las pruebas e impiden que el resultado de una página dependa de una sola prueba, tal vez inexacta. Para obtener una mala puntuación el balance de las pruebas debe ser claramente desfavorable. Es necesario que se detecten varios errores y, por el contrario, que no se detecten buenas prácticas en la cantidad y con la ponderación suficiente como para compensar esos errores. No se puede achacar a la casualidad una puntuación muy baja así como una puntuación muy alta difícilmente se consiga por un golpe de suerte.
 A veces es necesario establecer objetivos de trabajo en un sitio y las puntuaciones resultan un parámetro muy tentador. Tiene su atractivo poder decir, por ejemplo, "en tal fecha, todas las páginas evaluadas deberán alcanzar una puntuación mínima de 7" porque así la meta a alcanzar quedaría claramente definida. El problema es que no se puede usar la puntuación de un modo escolar, considerando que alcanza con 4 ó 6 para aprobar la materia.
 Para establecer objetivos precisos es más útil considerar la ausencia de aquellos errores que se pueden verificar con mayor exactitud. El modo estricto de eXaminator es apropiado para estos casos porque, si bien calcula la puntuación de la página, pone mayor énfasis en la importancia de las pruebas y en el informe las muestra agrupadas por niveles de acuerdo a las WCAG 2.0. De este modo es sencillo poner como meta, por ejemplo, eliminar todos los errores de prioridad A y doble A antes de planificar las revisiones manuales de las páginas.
-
-</div>
