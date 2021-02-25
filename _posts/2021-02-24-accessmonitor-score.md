@@ -130,3 +130,5 @@ title: The background of the AccessMonitor' Score
 <p>A veces es necesario establecer objetivos de trabajo en un sitio y las puntuaciones resultan un parámetro muy tentador. Tiene su atractivo poder decir, por ejemplo, "en tal fecha, todas las páginas evaluadas deberán alcanzar una puntuación mínima de 7" porque así la meta a alcanzar quedaría claramente definida. El problema es que no se puede usar la puntuación de un modo escolar, considerando que alcanza con 4 ó 6 para aprobar la materia.</p>
 
 <p>Para establecer objetivos precisos es más útil considerar la ausencia de aquellos errores que se pueden verificar con mayor exactitud. El modo estricto de eXaminator es apropiado para estos casos porque, si bien calcula la puntuación de la página, pone mayor énfasis en la importancia de las pruebas y en el informe las muestra agrupadas por niveles de acuerdo a las WCAG 2.0. De este modo es sencillo poner como meta, por ejemplo, eliminar todos los errores de prioridad A y doble A antes de planificar las revisiones manuales de las páginas.</p>
+
+</div>
