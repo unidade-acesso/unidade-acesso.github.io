@@ -9,7 +9,21 @@ title: The score of AccessMonitor
 <p>(...)</p>
 
 <div lang="es">
- 
+
+<h2>Información técnica</h2>
+
+<p>En el tema anterior ya me ocupé de alertar hasta la exageración sobre las limitaciones que pueden tener las calificaciones automáticas. Aún así, necesitamos contar con una métrica numérica que resuma el resultado de las pruebas automáticas en un dato único que nos permita ordenar y comparar esos resultados. Es el momento de explicar las ideas básicas en el diseño de eXaminator y las operaciones que se realizan para evaluar la accesibilidad de las páginas web.</p>
+
+<h2>Antecedentes</h2>
+
+<p>Cuando me dispuse a desarrollar la versión de eXaminator para las WCAG 2.0 - publicadas a principios de diciembre de 2008 - era el momento propicio para modificar de raíz la metodología de revisión y cálculo que usaba hasta ese momento. El sistema consistía básicamente en adjudicar un puntaje a situaciones relacionadas con buenas y malas prácticas de diseño. Por ejemplo, si todas las imágenes tenían el atributo <code>alt</code> la nota era 10, si se encontraba 1 imagen sin <code>alt</code> la nota era 3 y, si había más de una imagen sin <code>alt</code>, la nota era 1. Una metodología sencilla y con bastantes limitaciones.</p>
+
+<p>En ese entonces contaba también con algunas buenas referencias externas, especialmente la Metodología Unificada de Evaluación Web (UWEM) [<a href="#n17" title="UWEM">17</a>] que contenía una métrica numérica para las evaluaciones automáticas. Otra referencia importante era el trabajo sobre Métricas Cuantitativas para Medir la Accesibilidad Web presentado en <span lang="en">W4A 2007</span> porque no sólo proponía una nueva metodología de medición denominada WAQM [<a href="#n18" title="WAQM">18</a>] sino que presentaba y analizaba otros trabajos similares. <strong>Todos estos sistemas, aunque con diferencias significativas entre sí, se basan en la tasa de fallo, es decir, la relación entre el número de errores encontrados y el total de pruebas realizadas.</strong></p>
+
+<p>Había trabajado también en el prototipo de una herramienta basada en UWEM cuyo desarrollo quedó inconcluso debido a la aparición de las WCAG 2.0 (el proyecto UWEM tenía previsto migrar a la nueva versión de las pautas y era más sensato esperar su actualización). Aquí experimenté eso de que el diablo está en los detalles al no saber cómo se resolvían algunas pruebas a pesar de que UWEM contiene una documentación muy completa. Pero aún ese fracaso servía como antecedente para saber qué hacer en la nueva versión de eXaminator y qué obstáculos debía evitar.</p>
+
+<p>(...)</p>
+
 <h2>Fórmulas de cálculo</h2>
 
 <p>Un inconveniente de las métricas que miden la tasa de fallo es que nos ponen en aprietos al tratar de resolver las pruebas cuando es difícil o imposible definir el número total de pruebas realizadas. En el test sobre las alternativas textuales no hay problemas porque el total de pruebas es el número de imágenes que hay en una página y el número de errores son las imágenes sin el atributo <code>alt</code>.</p>
@@ -61,7 +75,7 @@ title: The score of AccessMonitor
 
 <p>Indica la seguridad que se le otorga a la prueba. Como todas las pruebas ofrecen entre una buena y una muy buena seguridad de no fallar (de otro modo serían, lógicamente, descartadas), en una escala de 0 a 1, todas merecerían un valor muy elevado, haciendo que la escala fuera poco significativa.</p>
 
-<p>Para ampliar esa escala basada en un criterio válido, se toman en cuenta los pasos indicados en los procedimientos de revisión de las técnicas relacionadas. Por ejemplo, si el primer enlace de la página tiene como referencia un ancla en la propia página, la técnica G1 [19] parece satisfecha pero, observando los procedimientos de revisión manual, vemos que faltaría verificar si el enlace es siempre visible, si el texto del enlace es correcto y si efectivamente el salto es hacia el contenido principal. Por cada uno de esos pasos que no es posible verificar automáticamente se disminuye 0.1 y la confianza de esa prueba será 0.7. Este criterio no es estricto pero proporciona la estrategia necesaria para resolver con cierta coherencia la confianza de cada prueba.</p>
+<p>Para ampliar esa escala basada en un criterio válido, se toman en cuenta los pasos indicados en los procedimientos de revisión de las técnicas relacionadas. Por ejemplo, si el primer enlace de la página tiene como referencia un ancla en la propia página, la técnica G1 [<a href="#n19" title="la técnica G1">19</a>] parece satisfecha pero, observando los procedimientos de revisión manual, vemos que faltaría verificar si el enlace es siempre visible, si el texto del enlace es correcto y si efectivamente el salto es hacia el contenido principal. Por cada uno de esos pasos que no es posible verificar automáticamente se disminuye 0.1 y la confianza de esa prueba será 0.7. Este criterio no es estricto pero proporciona la estrategia necesaria para resolver con cierta coherencia la confianza de cada prueba.</p>
 
 <h3>Tipos de prueba</h3>
 
@@ -95,7 +109,7 @@ title: The score of AccessMonitor
 
 <p>R=N*(1-S/E)*P</p>
 
-<p>Veamos como ejemplo la prueba sobre las alternativas textuales en las imágenes. Aquí, Elemento (E) son las imágenes y Situación (S) son las imágenes sin alt. La prueba es aplicable cuando existen ambos. La Nota (N) es la calificación inicial atribuida a este tipo de errores (en esta prueba la nota es 3 porque se considera que está mal sin importar cuántas imágenes sin alt se encuentren).</p>
+<p>Veamos como ejemplo la prueba sobre las alternativas textuales en las imágenes. Aquí, Elemento (E) son las imágenes y Situación (S) son las imágenes sin alt. La prueba es aplicable cuando existen ambos. La Nota (N) es la calificación inicial atribuida a este tipo de errores (en esta prueba la nota es 3 porque se considera que está mal sin importar cuántas imágenes sin <code>alt</code> se encuentren).</p>
 
 <p>Pero la calificación puede aún ser menor si consideramos la extensión de los errores. Entonces, se calcula la tasa de fallo y luego el porcentaje a sustraer de la nota inicial. Si las imágenes son 8 y hay 4 sin alt, sin tomar en cuenta la ponderación, el cálculo sería:</p>
 
@@ -133,34 +147,40 @@ title: The score of AccessMonitor
 
 <h3>Referencias</h3>
 
-<p>1. Linkedin Carlos Benavidez. Sitio personal: carlos-benavidez.com.ar</p>
-<p>2. Hera. Revisando la Accesibilidad con Estilo</p>
-<p>3. Walidator (UWEM)</p>
-<p>4. eXaminator</p>
-<p>5. Wikipedia: Libro blanco</p>
-<p>6. Accesibilidad es el arte de garantizar que, tan amplia y extensamente como sea posible,
+<p id="n1">1. Linkedin Carlos Benavidez. Sitio personal: carlos-benavidez.com.ar</p>
+<p id="n2">2. Hera. Revisando la Accesibilidad con Estilo</p>
+<p id="n3">3. Walidator (UWEM)</p>
+<p id="n4">4. eXaminator</p>
+<p id="n5">5. Wikipedia: Libro blanco</p>
+<p id="n6">6. Accesibilidad es el arte de garantizar que, tan amplia y extensamente como sea posible,
 los medios (como por ejemplo el acceso a la Web) estén disponibles para las personas,
 tengan o no deficiencias de un tipo u otro. Tim Berners-Lee</p>
-<p>7. Pautas de Accesibilidad al Contenido en la Web 1.0</p>
-<p>8. Wikipedia Premios Stella (ridículas y escandalosas demandas judiciales)</p>
-<p>9. WCAG 2.0 Traducción Candidata a ser la Oficial al Español</p>
-<p>10. WCAG 2.0 Comprender las WCAG 2.0 (borrador)</p>
-<p>11. WCAG 2.0 4.1.2 Nombre, función, valor</p>
-<p>12. WCAG 2.0 H65: Using the title attribute to identify form controls when the label element
+<p id="n7">7. Pautas de Accesibilidad al Contenido en la Web 1.0</p>
+<p id="n8">8. Wikipedia Premios Stella (ridículas y escandalosas demandas judiciales)</p>
+<p id="n9">9. WCAG 2.0 Traducción Candidata a ser la Oficial al Español</p>
+<p id="n10">10. WCAG 2.0 Comprender las WCAG 2.0 (borrador)</p>
+<p id="n11">11. WCAG 2.0 4.1.2 Nombre, función, valor</p>
+<p id="n12">12. WCAG 2.0 H65: Using the title attribute to identify form controls when the label element
 cannot be used (en inglés)</p>
-<p>13. WCAG 2.0 G167: Using an adjacent button to label the purpose of a field (en inglés)</p>
-<p>14.Wikipedia Roberto Arlt</p>
-<p>15. Wikipedia Lord Kelvin</p>
-<p>16. Wikipedia Medida ordinal</p>
-<p>17. Unified Web Evaluation Methodology (UWEM) (en inglés)</p>
-<p>18. Quantitative Metrics for Measuring Web Accessibility Vigo, M., Arrue, M., Brajnik, G.,
+<p id="n13">13. WCAG 2.0 G167: Using an adjacent button to label the purpose of a field (en inglés)</p>
+<p id="n14">14. Wikipedia Roberto Arlt</p>
+<p id="n15">15. Wikipedia Lord Kelvin</p>
+<p id="n16">16. Wikipedia Medida ordinal</p>
+<p id="n17">17. Unified Web Evaluation Methodology (UWEM) (en inglés)</p>
+<p id="n18">18. Quantitative Metrics for Measuring Web Accessibility Vigo, M., Arrue, M., Brajnik, G.,
 Lomuscio, R., and Abascal, J. (2007) (en inglés)</p>
-<p>19. WCAG 2.0 G1: Adding a link at the top of each page that goes directly to the main
+<p id="n19">19. WCAG 2.0 G1: Adding a link at the top of each page that goes directly to the main
 content area (en inglés)</p>
-<p>20. Website Accessibility Conformance Evaluation Methodology 1.0 (en inglés) 21.Evaluating Websites for Accessibility (en inglés)</p>
-<p>22. Unidade Acesso Acessibilidade eletrónica para cidadãos com necessidades especiais
+<p id="n20">20. Website Accessibility Conformance Evaluation Methodology 1.0 (en inglés)</p>
+<p id="n21">21.Evaluating Websites for Accessibility (en inglés)</p>
+<p id="n22">22. Unidade Acesso Acessibilidade eletrónica para cidadãos com necessidades especiais
 (en portugués)</p>
-<p>23. TAW Monitor</p>
-<p>24. Linkedin Daniel Low 25.Linkedin Jorge Fernandes 26.Linkedin Cláudia Cardoso 27.UMIC Luis Magalhães 28.Linkedin Sofía Benavidez 29.Linkedin Ramiro Benavidez</p>
+<p id="n23">23. TAW Monitor</p>
+<p id="n24">24. Linkedin Daniel Low</p>
+<p id="n25">25. Linkedin Jorge Fernandes</p>
+<p id="n26">26. Linkedin Cláudia Cardoso</p>
+<p id="n27">27. UMIC Luis Magalhães</p>
+<p id="n28">28.Linkedin Sofía Benavidez</p>
+<p id="n29">29.Linkedin Ramiro Benavidez</p>
 
 </div>
