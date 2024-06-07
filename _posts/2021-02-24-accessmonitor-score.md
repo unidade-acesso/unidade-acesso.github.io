@@ -4,6 +4,8 @@ title: The score of AccessMonitor
 
 <p lang="en">Note: This article was taken from <a href="/libro_blanco_examinator.pdf"><em lang="es">Libro Blanco de eXaminator</em>, written by <em lang="es">Carlos Benavidez</em></a>, the author of web validation tools such as Hera, eXaminator, and AccessMonitor. The book was published on June 1, 2012. Carlos was a great mentor for the validation tools we use in the Portuguese Public Administration. This work began in 2005 and continued until his passing on October 19, 2016. Remembering him is a simple tribute to the enormous legacy he left us.</p>
 
+<p lang="en">When we launched the first version of eXaminator in 2005, assigning a score to the accessibility practices found on a web page was a scandal! :-) We were very poorly treated by the accessibility expert community at that time. Interestingly, in 2011, the W3C held the 1st Website Accessibility Metrics Symposium. Carlos and I presented the paper <a href="https://www.w3.org/WAI/RD/2011/metrics/paper8/">A '0' in eChecker equals a '10' in eXaminator: a comparison between two metrics by their scores</a>. We were no longer alone :-) in the madness of finding something quantitative to help implement more and better web accessibility practices.</p>
+
 <p lang="en">Everything discussed below regarding eXaminator's score also applies to the score of AccessMonitor. The original text is in Spanish.</p>
 
 <p>(...)</p>
