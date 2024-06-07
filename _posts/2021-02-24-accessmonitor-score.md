@@ -1,12 +1,10 @@
 ---
 title: The score of AccessMonitor
 ---
-<!-- start to translate to EN
-A disadvantage of metrics based on failure rate is that they often put us in a difficult position when it comes to determining the total number of situations to which the test applies. In many tests it is difficult, if not impossible, to determine the total number of applicable situations.
--->
-<p lang="en">Note: this article was taken from <em lang="es">Libro Blanco de eXaminator</em>, written by Carlos Benavidez, author of Web validators such as Hera, eXaminator and AccessMonitor. The book was published on June 1, 2012. Carlos was the great mentor of the validation tools we use in the Portuguese Public Administration. A work that we started in 2005 and that lasted until the day of his death (19 October 2016). Remembering him is a simple tribute to the enormous legacy he left us.</p>
 
-<p lang="en">Everything that is said below about the eXaminator's score applies to the score of AccessMonitor. The original text is in Spanish.</p>
+<p lang="en">Note: This article was taken from Libro Blanco de eXaminator, written by Carlos Benavidez, the author of web validation tools such as Hera, eXaminator, and AccessMonitor. The book was published on June 1, 2012. Carlos was a great mentor for the validation tools we use in the Portuguese Public Administration. This work began in 2005 and continued until his passing on October 19, 2016. Remembering him is a simple tribute to the enormous legacy he left us.</p>
+
+<p lang="en">Everything discussed below regarding eXaminator's score also applies to the score of AccessMonitor. The original text is in Spanish.</p>
 
 <p>(...)</p>
 
