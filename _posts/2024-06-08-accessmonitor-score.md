@@ -1,10 +1,8 @@
 ---
 title: The score of AccessMonitor (II)
 ---
-to do: passar para aqui a nota técnica do AccessMonitor que está no servidor histórico
 
-Nota técnica AccessMonitor
-==========================
+"Nota técnica AccessMonitor" publicada originalmente no sítio Web da Unidade ACESSO em Março de 2015.
 
 Índice do documento
 
@@ -117,297 +115,315 @@ Os testes _AccessMonitor_ resultam das WCAG 2.0 do W3C.
 
 Dos 61 critérios de sucesso das WCAG 2.0, o _AccessMonitor_ tem, pelo menos, um teste para 30 deles (ver tabela 1). No caso dos critérios de sucesso de prioridade ‘A’ chega mesmo a abranger 64% dos 25 critérios existentes para a conformidade ‘A’.
 
-Tabela 1: Nº de Critérios de Sucesso WCAG 2.0 abrangidos pelos testes do _AccessMonitor_ por níveis de prioridade
-
-(A) = Total CS abrangidos pelos Testes AccessMonitor
-
-(B) = Total CS das WCAG2.0
-
-(A) / (B)
-
-Prioridade ‘A’
-
-16
-
-25
-
-64%
-
-Prioridade ‘AA’
-
-5
-
-13
-
-38%
-
-Prioridade ‘AAA’
-
-9
-
-23
-
-39%
-
-Total
-
-30
-
-61
-
-50%
+ <table style="width:100%">
+<caption>Tabela 1: Nº de Critérios de Sucesso <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.0 abrangidos pelos testes do <em lang="en">AccessMonitor</em> por níveis de prioridade</caption>
+<tbody>
+<tr>
+<th style="width: 40%;" scope="col"></th>
+<th style="width: 20%;" scope="col">(A) = Total CS abrangidos pelos Testes AccessMonitor</th>
+<th style="width: 20%;" scope="col">(B) = Total CS das WCAG2.0</th>
+<th style="width: 20%;" scope="col">(A) / (B)</th>
+</tr>
+<tr>
+<th scope="row">Prioridade ‘A’</th>
+<td>16</td>
+<td>25</td>
+<td>64%</td>
+</tr>
+<tr>
+<th scope="row">Prioridade ‘AA’</th>
+<td>5</td>
+<td>13</td>
+<td>38%</td>
+</tr>
+<tr>
+<th scope="row">Prioridade ‘AAA’</th>
+<td>9</td>
+<td>23</td>
+<td>39%</td>
+</tr>
+<tr>
+<th scope="row">Total</th>
+<td>30</td>
+<td>61</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
 
 O _AccessMonitor_ infere o grau de conformidade para com as WCAG 2.0, sendo a sua análise transversal aos 3 níveis de prioridade. Os atuais 86 testes do _AccessMonitor_ não têm uma correspondência biunívoca para com os 61 critérios de sucesso das WCAG 2.0 (i.e. não existe uma relação de um para um). Existem critérios de sucesso para os quais se observa mais do que um teste e há testes que se aplicam a múltiplos critérios de sucesso (ver tabela 2). É importante ter em conta que existem critérios de sucesso para os quais é impossível uma análise automática.
 
-Tabela 2: Nº de testes _AccessMonitor_ por critérios de sucesso e níveis de prioridade
-
-Critérios de Sucesso WCAG2.0
-
-Testes ‘A’
-
-Testes ‘AA’
-
-Testes ‘AAA’
-
-Total
-
-1.1.1
-
-17
-
-17
-
-1.2.1
-
-1
-
-1
-
-1.2.8
-
-1
-
-1
-
-1.3.1
-
-18
-
-18
-
-1.3.2
-
-2
-
-2
-
-1.4.3
-
-2
-
-2
-
-1.4.4
-
-5
-
-5
-
-1.4.5
-
-3
-
-3
-
-1.4.6
-
-1
-
-1
-
-1.4.8
-
-5
-
-5
-
-1.4.9
-
-3
-
-3
-
-2.1.1
-
-3
-
-3
-
-2.1.3
-
-2
-
-2
-
-2.2.1
-
-2
-
-2
-
-2.2.2
-
-2
-
-2
-
-2.2.4
-
-2
-
-2
-
-2.4.1
-
-7
-
-7
-
-2.4.2
-
-7
-
-7
-
-2.4.4
-
-4
-
-4
-
-2.4.5
-
-1
-
-1
-
-2.4.6
-
-1
-
-1
-
-2.4.9
-
-4
-
-4
-
-2.4.10
-
-1
-
-1
-
-3.1.1
-
-4
-
-4
-
-3.2.1
-
-1
-
-1
-
-3.2.2
-
-2
-
-2
-
-3.2.5
-
-1
-
-1
-
-3.3.2
-
-5
-
-5
-
-4.1.1
-
-8
-
-8
-
-4.1.2
-
-10
-
-10
-
-Total (\*)
-
-93
-
-12
-
-20
-
-125
-
+<table style="width:100%">
+<caption>Tabela 2: Nº de testes <em lang="en">AccessMonitor</em> por critérios de sucesso e níveis de prioridade</caption>
+<tbody>
+<tr>
+<th style="width: 40%;" scope="col">Critérios de Sucesso WCAG2.0</th>
+<th style="width: 10%;" scope="col">Testes ‘A’</th>
+<th style="width: 10%;" scope="col">Testes ‘AA’</th>
+<th style="width: 10%;" scope="col">Testes ‘AAA’</th>
+<th style="width: 10%;" scope="col">Total</th>
+</tr>
+<tr>
+<th scope="row">1.1.1</th>
+<td>17</td>
+<td></td>
+<td></td>
+<td>17</td>
+</tr>
+<tr>
+<th scope="row">1.2.1</th>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">1.2.8</th>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">1.3.1</th>
+<td>18</td>
+<td></td>
+<td></td>
+<td>18</td>
+</tr>
+<tr>
+<th scope="row">1.3.2</th>
+<td>2</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">1.4.3</th>
+<td></td>
+<td>2</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">1.4.4</th>
+<td></td>
+<td>5</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr>
+<th scope="row">1.4.5</th>
+<td></td>
+<td>3</td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<th scope="row">1.4.6</th>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">1.4.8</th>
+<td></td>
+<td></td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr>
+<th scope="row">1.4.9</th>
+<td></td>
+<td></td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<th scope="row">2.1.1</th>
+<td>3</td>
+<td></td>
+<td></td>
+<td>3</td>
+</tr>
+<tr>
+<th scope="row">2.1.3</th>
+<td></td>
+<td></td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">2.2.1</th>
+<td>2</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">2.2.2</th>
+<td>2</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">2.2.4</th>
+<td></td>
+<td></td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">2.4.1</th>
+<td>7</td>
+<td></td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<th scope="row">2.4.2</th>
+<td>7</td>
+<td></td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<th scope="row">2.4.4</th>
+<td>4</td>
+<td></td>
+<td></td>
+<td>4</td>
+</tr>
+<tr>
+<th scope="row">2.4.5</th>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">2.4.6</th>
+<td></td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">2.4.9</th>
+<td></td>
+<td></td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<th scope="row">2.4.10</th>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">3.1.1</th>
+<td>4</td>
+<td></td>
+<td></td>
+<td>4</td>
+</tr>
+<tr>
+<th scope="row">3.2.1</th>
+<td>1</td>
+<td></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">3.2.2</th>
+<td>2</td>
+<td></td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<th scope="row">3.2.5</th>
+<td></td>
+<td></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<th scope="row">3.3.2</th>
+<td>5</td>
+<td></td>
+<td></td>
+<td>5</td>
+</tr>
+<tr>
+<th scope="row">4.1.1</th>
+<td>8</td>
+<td></td>
+<td></td>
+<td>8</td>
+</tr>
+<tr>
+<th scope="row">4.1.2</th>
+<td>10</td>
+<td></td>
+<td></td>
+<td>10</td>
+</tr>
+<tr>
+<th scope="row">Total (*)</th>
+<td>93</td>
+<td>12</td>
+<td>20</td>
+<td>125</td>
+</tr>
+</tbody>
+</table>
 (\*) O total de testes não é igual a 86 uma vez que existem testes que se aplicam a vários critérios de sucesso.
 
 Se analisarmos a distribuição dos 30 testes _AccessMonitor_ (ver tabela 3) pelos 3 níveis de prioridade das WCAG verifica-se que 53% dos testes estão relacionados com verificações de prioridade A, 17% de prioridade AA e 30% de prioridade AAA. O _AccessMonitor_ segue os pesos relativos da distribuição existente nas WCAG 2.0 embora contenha um maior número de testes, em termos relativos, para os critérios de prioridade ‘A’.
 
-Tabela 3: Distribuição dos critérios de sucesso _AccessMonitor_ pelos 3 níveis de prioridade das WCAG 2.0
-
-Níveis de prioridade
-
-CS AccessMonitor
-
-CS WCAG2.0
-
-Prioridade A
-
-16
-
-53%
-
-25
-
-41%
-
-Prioridade AA
-
-5
-
-17%
-
-13
-
-21%
-
-Prioridade AAA
-
-9
-
-30%
-
-23
-
-38%
-
-Total
-
-30
-
-61
+<table style="width:100%">
+<caption>Tabela 3: Distribuição dos critérios de sucesso <em lang="en">AccessMonitor</em> pelos 3 níveis de prioridade das <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.0</caption>
+<tbody>
+<tr>
+<th scope="col">Níveis de prioridade</th>
+<th colspan="2" scope="col"><abbr title="Critério de Sucesso">CS</abbr> AccessMonitor</th>
+<th colspan="2" scope="col"><abbr title="Critério de Sucesso">CS</abbr> WCAG2.0</th>
+</tr>
+<tr>
+<th scope="row">Prioridade A</th>
+<td>16</td>
+<td>53%</td>
+<td>25</td>
+<td>41%</td>
+</tr>
+<tr>
+<th scope="row">Prioridade AA</th>
+<td>5</td>
+<td>17%</td>
+<td>13</td>
+<td>21%</td>
+</tr>
+<tr>
+<th scope="row">Prioridade AAA</th>
+<td>9</td>
+<td>30%</td>
+<td>23</td>
+<td>38%</td>
+</tr>
+<tr>
+<th scope="row">Total</th>
+<td>30</td>
+<td></td>
+<td>61</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 O índice _AccessMonitor_ e a fórmula de cálculo
 -----------------------------------------------
@@ -424,23 +440,27 @@ O grau de confiança (U) no teste, resulta da experiência de utilização da eq
 
 O peso relativo do teste (W) pondera a importância do teste na estrutura organizativa das WCAG2.0 e nos 3 níveis de prioridade com que esta hierarquiza os critérios de sucesso, ou seja: critérios de sucesso de prioridade A, critérios de sucesso de prioridade AA e critérios de sucesso de prioridade AAA (veja tabela seguinte).
 
-Tabela 4: Ponderação (W) dos testes consoante os CS das WCAG2.0 a que pertencem
-
-Critérios de Sucesso
-
-Ponderação
-
-de prioridade A
-
-0.9
-
-de prioridade AA
-
-0.6
-
-de prioridade AAA
-
-0.2
+<table style="width:100%">
+<caption>Tabela 4: Ponderação (W) dos testes consoante os CS das <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr>2.0 a que pertencem</caption>
+<tbody>
+<tr>
+<th scope="col">Critérios de Sucesso</th>
+<th scope="col">Ponderação</th>
+</tr>
+<tr>
+<td>de prioridade A</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>de prioridade AA</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>de prioridade AAA</td>
+<td>0.2</td>
+</tr>
+</tbody>
+</table>
 
 A ponderação (W) pode ainda ser modificada caso o teste em presença esteja relacionado com mais do que uma técnica do tipo suficiente ou aconselhada, na definição das WCAG 2.0. Assim, no primeiro caso soma-se, à ponderação que se encontra na tabela anterior, 0.1, e no segundo caso subtrai-se 0.1, dando assim um maior peso às técnicas que o W3C considera suficientes em detrimento das técnicas “meramente” aconselhadas.
 
@@ -507,31 +527,35 @@ E = total de elementos de um dado tipo semântico
 
 Por exemplo, se na recolha forem encontradas 20 imagens das quais 10 não têm legenda, teremos 1-C/E = 1-10/20 = 1-1/2 = 1/2. Se S, pontuação inicial atribuída para a existência de erros deste tipo, for igual a 3, então teremos S\*(1-C/E) = 3\*(1-1/2) = 3/2 = 1.5, ou seja metade da pontuação inicial, o que tem lógica dado o erro estar presente em 50% das imagens encontradas.
 
-Tabela 5: Tipo de testes AccessMonitor
-
-Tipo de Teste
-
-Nº de testes
-
-Verdadeiro
-
-25
-
-Falso
-
-14
-
-Decrescente
-
-24
-
-Proporcional
-
-23
-
-Total
-
-86
+<table style="width:100%">
+<caption>Tabela 5: Tipo de testes AccessMonitor</caption>
+<tbody>
+<tr>
+<th scope="row">Tipo de Teste</th>
+<th>Nº de testes</th>
+</tr>
+<tr>
+<td>Verdadeiro</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Falso</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Decrescente</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Proporcional</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>86</td>
+</tr>
+</tbody>
+</table>
 
 Por último, a fórmula de cálculo do índice _AccessMonitor_ resulta da divisão do somatório dos diversos resultados dos 4 tipos de testes pelo somatório das respectivas ponderações (ver fórmula síntese abaixo).
 
