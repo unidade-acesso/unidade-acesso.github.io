@@ -6,18 +6,18 @@ title: The score of AccessMonitor (II)
 
 Índice do documento
 
-*   [_AccessMonitor_: o que é?](#n12)
-*   [Funcionalidades](#n13)
-*   [O relatório qualitativo](#n14)
-*   [Os testes](#n15)
-    *   [de tipo verdadeiro](#n151)
+*   [AccessMonitor: o que é?]()
+*   [Funcionalidades]()
+*   [O relatório qualitativo]()
+*   [Os testes]()
+    *   [de tipo verdadeiro]()
     *   [de tipo falso](#n152)
     *   [de tipo decrescente](#n153)
     *   [de tipo proporcional](#n154)
-*   [O índice _AccessMonitor_](#n16)
-*   [Bateria de testes](#Bateria_de testes_do_AccessMonitor)
+*   [O índice AccessMonitor e a fórmula de cálculo]()
+*   [Bateria de testes]()
 
-## _AccessMonitor_: o que é?
+## AccessMonitor: o que é?
 
 O _AccessMonitor_ é um validador automático que verifica a aplicação das directrizes de acessibilidade nos conteúdos HTML de um sítio web. O _AccessMonitor_ usa como referência a versão 2.0 das **Directrizes de Acessibilidade para o Conteúdo da Web (WCAG 2.0)** do _World Wide Web Consortium (W3C)_.
 
@@ -27,7 +27,7 @@ Ao contrário dos validadores para as WCAG 1.0, a existência de validadores par
 
 O _AccessMonitor_ resulta da experiência de desenvolvimento e utilização do [validador eXaminator](/webax/examinator.php), ferramenta automática de validação que desde 2005 é usada pela equipa da [Unidade ACESSO da _FCT_](http://www.acesso.umic.pt/) na **Administração Pública Portuguesa**. O _AccessMonitor_ congrega todos os ensinamentos resultantes do eXaminator, aos quais se associam novas formas de recolha de informação e apresentação dos resultados.
 
-## Funcionalidades do _AccessMonitor_
+## Funcionalidades do AccessMonitor
 
 Assim, no _AccessMonitor_, é possível encontrar as seguintes funcionalidades:
 
@@ -51,8 +51,7 @@ Assim, no _AccessMonitor_, é possível encontrar as seguintes funcionalidades:
 
 Tal como sucede atualmente com o eXaminator, também com o _AccessMonitor_ é possível criar diretórios de monitorização de múltiplas páginas de um sítio Web, diretórios de vários sítios de um setor de atividade, bem como proceder à afixação do selo dinâmico de certificação. Se pretende usar o selo dinâmico de certificação, entre em contato com a equipa da ACESSO.
 
-## O relatório qualitativo _AccessMonitor_
-
+## O relatório qualitativo AccessMonitor
 
 O _AccessMonitor_ produz automaticamente um relatório qualitativo por cada página que lhe é submetida.
 
@@ -63,9 +62,6 @@ O relatório está organizado em duas partes:
 
 *   uma breve descrição da amostra recolhida e;
 *   uma apresentação exaustiva dos resultados compilados.
-
-
-
 
 <img width="582" alt="Recorte exemplo de uma amostra recolhida pelo AccessMonitor" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/2a28491d-ebd0-43d9-9e96-bfecfd1a8ddf">
 
@@ -88,7 +84,6 @@ Do sumário faz parte:
 *   **o “índice _AccessMonitor_“**, o qual é uma unidade de valoração utilizada em todos os testes do validador e cujo resultado final sintetiza e quantifica as práticas com vista à acessibilidade expressa nas WCAG 2.0. O índice _AccessMonitor_ é uma herança do [índice _web@x_ do eXaminator](/webax/nota_tecnica_webax.html), o qual inaugurou o uso deste tipo de indicadores quantitativos em validadores de acessibilidade de conteúdos Web. Se em 2005, o eXaminator foi pioneiro no uso de indicadores quantitativos, hoje em dia este tipo de indicador tem sido alvo de discussão académica e é mesmo prática noutros validadores como o [_TAW_](http://www.tawdis.net). A escala de 1 a 10, representando o 10 uma boa prática observada automaticamente, acaba por ser uma escala de apreensão mais imediata e fácil do que a gradação usada pelo W3C com os seus 3 níveis de prioridade, pouco sensível a pequenas correções operadas nos conteúdos.
 *   **um quadro que sintetiza os resultados dos testes efectuados**, em que se expressa o número de testes que estão **OK**, dos que contêm **erros**, dos que requerem uma validação manual adicional, assinalados como **avisos**. Os 3 tipos de resultados encontram-se estratificados pelos 3 níveis de prioridade dos critérios de sucesso das WCAG 2.0, ou seja, prioridade ‘A’, prioridade ‘AA’ e prioridade ‘AAA’.
 
-
 <img width="925" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/6f4aee12-2e74-4e44-9cd5-91b518c2c6c3">
 
 Figura 4: Informação detalhada por teste fornecida no relatório qualitativo _AccessMonitor_.
@@ -109,8 +104,7 @@ Figura 5: Pormenor do relatório qualitativo – documentação WCAG 2.0 de refe
 
 Por último, é ainda fornecido um conjunto de documentação WCAG 2.0 de consulta contextualizada, do qual fazem parte a técnica ou falha WCAG 2.0 usada como referência principal pelo teste, a sua descrição, bem como os critérios, ou critério, de sucesso aplicáveis, assim como outras técnicas ou falhas relacionadas. Todas as referências mencionadas no relatório qualitativo do _AccessMonitor_ estão sustentadas, com ligações diretas aos documentos originais, em informação produzida pelo W3C para as WCAG 2.0 e cuja tradução para português esteve a cargo da Unidade ACESSO da _FCT._
 
-Os testes _AccessMonitor_ resultam das WCAG 2.0 do W3C.
--------------------------------------------------------
+## Os testes AccessMonitor resultam das WCAG 2.0 do W3C.
 
 Dos 61 critérios de sucesso das WCAG 2.0, o _AccessMonitor_ tem, pelo menos, um teste para 30 deles (ver tabela 1). No caso dos critérios de sucesso de prioridade ‘A’ chega mesmo a abranger 64% dos 25 critérios existentes para a conformidade ‘A’.
 
@@ -424,8 +418,7 @@ Se analisarmos a distribuição dos 30 testes _AccessMonitor_ (ver tabela 3) pel
 </tbody>
 </table>
 
-O índice _AccessMonitor_ e a fórmula de cálculo
------------------------------------------------
+## O índice AccessMonitor e a fórmula de cálculo
 
 O AcceMonitor dispõe de um índice numérico, numa escala de 1.0 a 10.0, que tem por objectivo sintetizar num só valor o grau de satisfação dos testes automáticos executados pelo validador. O valor 10.0 é indicativo de uma muito elevada satisfação dos testes executados pelo _AccessMonitor_ aos conteúdos submetidos. O índice sintetiza os resultados verificados numa página ou numa amostra de páginas de um sítio web.
 
@@ -565,7 +558,6 @@ Em síntese, a fórmula de cálculo global do índice _AccessMonitor_ tem a segu
 
 Os índices das variáveis identificadas por t1, t2, t3 e t4 representam respectivamente os 4 tipos de testes do _AccessMonitor_, ou seja: testes do tipo verdadeiro, do tipo falso, do tipo decrescente e do tipo proporcional. A variável P (ponderação) encontra-se explicitada acima.
 
-Bateria de testes
------------------
+## Bateria de testes
 
 [Bateria de testes](/accessmonitor/bateria.php) | Para uma análise detalhada dos 86 testes consulte a bateria de testes.
