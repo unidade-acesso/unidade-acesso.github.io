@@ -6,16 +6,16 @@ title: The score of AccessMonitor (II)
 
 Índice do documento
 
-*   [AccessMonitor: o que é?]()
-*   [Funcionalidades]()
-*   [O relatório qualitativo]()
-*   [Os testes]()
-    *   [de tipo verdadeiro]()
-    *   [de tipo falso](#n152)
-    *   [de tipo decrescente](#n153)
-    *   [de tipo proporcional](#n154)
-*   [O índice AccessMonitor e a fórmula de cálculo]()
-*   [Bateria de testes]()
+*   [AccessMonitor: o que é?](#accessmonitor-o-que-é)
+*   [Funcionalidades](#funcionalidades-do-accessmonitor)
+*   [O relatório qualitativo](#o-relatório-qualitativo-accessmonitor)
+*   [Os testes](#os-testes-accessmonitor-resultam-das-wcag-20-do-w3c)
+    *   [de tipo verdadeiro](#i-testes-de-tipo-verdadeiro)
+    *   [de tipo falso](#ii-testes-de-tipo-falso)
+    *   [de tipo decrescente](#iii-testes-de-tipo-decrescente)
+    *   [de tipo proporcional](#iv-testes-de-tipo-proporcional)
+*   [O índice AccessMonitor e a fórmula de cálculo](#o-índice-accessmonitor-e-a-fórmula-de-cálculo)
+*   [Bateria de testes](bateria-de-testes)
 
 ## AccessMonitor: o que é?
 
@@ -560,4 +560,4 @@ Os índices das variáveis identificadas por t1, t2, t3 e t4 representam respect
 
 ## Bateria de testes
 
-[Bateria de testes](/accessmonitor/bateria.php) | Para uma análise detalhada dos 86 testes consulte a bateria de testes.
+[Bateria de testes](/accessmonitor/bateria.php) - Para uma análise detalhada dos 86 testes consulte a bateria de testes.
