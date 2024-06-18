@@ -19,7 +19,7 @@ title: The score of AccessMonitor (II)
 
 ## AccessMonitor: o que é?
 
-O _AccessMonitor_ é um validador automático que verifica a aplicação das directrizes de acessibilidade nos conteúdos HTML de um sítio web. O _AccessMonitor_ usa como referência a versão 2.0 das **Directrizes de Acessibilidade para o Conteúdo da Web (WCAG 2.0)** do _World Wide Web Consortium (W3C)_.
+O _AccessMonitor_ é um validador automatizado que verifica a aplicação das directrizes de acessibilidade nos conteúdos HTML de um sítio web. O _AccessMonitor_ usa como referência a versão 2.0 das **Directrizes de Acessibilidade para Conteúdo Web (WCAG 2.0)** do _World Wide Web Consortium (W3C)_.
 
 O _AccessMonitor_ funciona integralmente na web e não requer quaisquer tipos de instalação, nem depende de um qualquer _browser_ ou sistema operativo e também não precisa de qualquer _plug-in_ adicional para funcionar. **Pode ser utilizado a partir de um qualquer dispositivo que corra um navegador web – o _AccessMonitor_ é integralmente universal**.
 
