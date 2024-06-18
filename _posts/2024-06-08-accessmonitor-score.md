@@ -45,9 +45,12 @@ Assim, no _AccessMonitor_, é possível encontrar as seguintes funcionalidades:
     *   [Noções sobre as WCAG 2.0 – Um manual para compreender e implementar as Diretrizes de Acessibilidade para o Conteúdo da Web 2.0](/w3/TR/UNDERSTANDING-WCAG20/);
     *   [Técnicas para as WCAG 2.0 – Técnicas e Falhas para as Diretrizes de Acessibilidade para o Conteúdo da Web 2.0](/w3/TR/WCAG20-TECHS/).
 *   **Verificações manuais mais fáceis:** o relatório disponibiliza 3 tipos de visualizações para análise manual das ocorrências:
-    *   ![ícone ver elementos](/accessmonitor/notatecnica/seeElem.png) uma visão por elemento;
-    *   ![ícone ver DOM](/accessmonitor/notatecnica/seeDom.png) uma visão no código (organizado através do _Document Object Model_) e;
-    *   ![ícone ver página](/accessmonitor/notatecnica/seePage.png) uma visão das ocorrências sobrepostas na página original.
+    *   <img width="15" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/754e15db-1100-4c43-b86e-f1b7d26ae32b">
+ uma visão por elemento;
+    *   <img width="17" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/1cc8970a-10e8-427b-9f55-5b971ef55589">
+ uma visão no código (organizado através do _Document Object Model_) e;
+    *   <img width="19" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/2aba8c02-b182-4aa3-8f21-565132579336">
+ uma visão das ocorrências sobrepostas na página original.
 
 Tal como sucede atualmente com o eXaminator, também com o _AccessMonitor_ é possível criar diretórios de monitorização de múltiplas páginas de um sítio Web, diretórios de vários sítios de um setor de atividade, bem como proceder à afixação do selo dinâmico de certificação. Se pretende usar o selo dinâmico de certificação, entre em contato com a equipa da ACESSO.
 
@@ -95,9 +98,13 @@ Figura 4: Informação detalhada por teste fornecida no relatório qualitativo _
 
 Os resultados detalhados apresentam todos os testes efectuados, organizados pelos 3 níveis de prioridade das WCAG 2.0. Para cada teste é apresentada a seguinte informação:
 
-Um ícone assinalando se o teste deu ![ícone ok](/accessmonitor/notatecnica/pass.png) (**OK**) ou ![ícone erro](/accessmonitor/notatecnica/fail.png) (**Erro**), um **título do teste**, uma frase que sintetiza a ocorrência encontrada, uma ligação que permite observar a ocorrência em detalhe (com uma visão por elemento ![ícone ver elementos](/accessmonitor/notatecnica/seeElem.png), uma visão através do DOM ![ícone ver DOM](/accessmonitor/notatecnica/seeDom.png) e uma visão na página original ![ícone ver página](/accessmonitor/notatecnica/seePage.png)). Surge depois, um pequeno racional que explicita o porquê do teste e qual a orientação geral preconizada nas WCAG 2.0.
+Um ícone assinalando se o teste deu <img width="27" alt="ícone OK" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/f1d23850-ce26-4daf-ae5a-0f8475e5f577">
+(**OK**) ou <img width="26" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/afe018f6-11a7-4482-a6f0-fc82d76180ac">
+(**Erro**), um **título do teste**, uma frase que sintetiza a ocorrência encontrada, uma ligação que permite observar a ocorrência em detalhe (com uma visão por elemento !<img width="20" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/b574a238-79ae-4217-93d0-e57714f85c7a">
+, uma visão através do DOM <img width="17" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/ccc6c91a-b80e-4792-b199-bd39e1190d8a">
+ e uma visão na página original <img width="15" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/f277e9d3-d293-4e10-b56b-6c112c8efca3">). Surge depois, um pequeno racional que explicita o porquê do teste e qual a orientação geral preconizada nas WCAG 2.0.
 
-Dos 86 testes do _AccessMonitor_, 78 testes entram no cálculo do índice _AccessMonitor_. Os restantes 8 incorporam o relatório qualitativo mas funcionam como **avisos** para validar manualmente. Esses testes surgem identificados no relatório qualitativo pelo símbolo ![Aviso](/accessmonitor/notatecnica/warning.png) .
+Dos 86 testes do _AccessMonitor_, 78 testes entram no cálculo do índice _AccessMonitor_. Os restantes 8 incorporam o relatório qualitativo mas funcionam como **avisos** para validar manualmente. Esses testes surgem identificados no relatório qualitativo pelo símbolo <img width="19" alt="Aviso" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/812fbde3-87b5-4bb8-b8eb-4fb70549ec49">.
 
 <img width="456" alt="image" src="https://github.com/unidade-acesso/unidade-acesso.github.io/assets/27364300/70faad39-94f4-4dec-8008-170a942bd1f8">
 
