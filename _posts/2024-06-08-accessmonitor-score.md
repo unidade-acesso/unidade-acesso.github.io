@@ -6,7 +6,6 @@ title: The score of AccessMonitor (II)
 
 Índice do documento
 
-
 *   [_AccessMonitor_: o que é?](#n12)
 *   [Funcionalidades](#n13)
 *   [O relatório qualitativo](#n14)
@@ -16,7 +15,7 @@ title: The score of AccessMonitor (II)
     *   [de tipo decrescente](#n153)
     *   [de tipo proporcional](#n154)
 *   [O índice _AccessMonitor_](#n16)
-*   [Bateria de testes](#n17 "Bateria de testes do AccessMonitor")
+*   [Bateria de testes](#Bateria_de testes_do_AccessMonitor)
 
 ## _AccessMonitor_: o que é?
 
